@@ -4,8 +4,12 @@
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  width: 100%;
+  height: 100vh;
 }
-
+main {
+  background: hsl(0, 0%, 95%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -16,9 +20,16 @@
 span.love {
   color: red;
 }
+span.love:hover {
+  color: red;
+  text-transform: uppercase;
+  user-select: none;
+}
 .categories {
   display: flex;
-  padding: 15px;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 900px;
 }
 
 .card-1 {
@@ -30,6 +41,16 @@ span.love {
   border-radius: 15px 0 0 15px;
   background: hsl(31, 77%, 52%);
 }
+.card-1 button {
+  color: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+.card-1 button:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
+}
 .card-2 {
   display: flex;
   flex-direction: column;
@@ -37,6 +58,16 @@ span.love {
   width: 300px;
   padding: 50px;
   background: hsl(184, 100%, 22%);
+}
+.card-2 button {
+  color: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+.card-2 button:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
 }
 .card-3 {
   display: flex;
@@ -46,6 +77,16 @@ span.love {
   padding: 50px;
   border-radius: 0 15px 15px 0;
   background: hsl(179, 100%, 13%);
+}
+.card-3 button {
+  color: hsl(179, 100%, 13%);
+  cursor: pointer;
+}
+.card-3 button:hover {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  border: solid 2px hsl(0, 0%, 95%);
 }
 h2 {
   font-family: "Big Shoulders Display", cursive;
@@ -64,15 +105,15 @@ p {
 }
 img {
   width: 30%;
+  height: 30%;
 }
 button {
   background: hsl(0, 0%, 95%);
   border: none;
   border-radius: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 0px;
-  padding-left: 0px;
+  margin-top: 25px;
+  width: 140px;
+  font-size: 15px;
 }
 
 /*
