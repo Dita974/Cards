@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+span.love {
+  color: red;
+}
+.categories {
+  display: flex;
+  padding: 15px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  padding: 50px;
+  border-radius: 15px 0 0 15px;
+  background: hsl(31, 77%, 52%);
+}
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  padding: 50px;
+  background: hsl(184, 100%, 22%);
+}
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  padding: 50px;
+  border-radius: 0 15px 15px 0;
+  background: hsl(179, 100%, 13%);
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: hsl(0, 0%, 95%);
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding-bottom: 30px;
+  line-height: 2em;
+}
+img {
+  width: 30%;
+}
+button {
+  background: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/*
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/ ;
