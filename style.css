@@ -126,6 +126,40 @@ span.love:hover {
 /****************MEDIAS QUERIES********************/
 /**************************************************/
 
+/****************DESKTOP**************************/
+
+@media screen and (max-width: 1440px) {
+  .categories {
+    padding-top: 100px;
+    width: 810px;
+  }
+  .card-1 {
+    height: 450px;
+    width: 270px;
+    padding: 40px;
+  }
+  .card-2 {
+    height: 450px;
+    width: 270px;
+    padding: 40px;
+  }
+  .card-3 {
+    height: 450px;
+    width: 270px;
+    padding: 40px;
+  }
+  p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    line-height: 2em;
+  }
+  button {
+    margin-top: 50px;
+    width: 120px;
+    font-size: 10px;
+  }
+}
+
 /****************MOBILE****************************/
 
 @media screen and (max-width: 375px) {
@@ -172,12 +206,5 @@ span.love:hover {
   .attribution {
     position: absolute;
     bottom: 0;
-  }
-}
-
-/****************DESKTOP**************************/
-
-@media screen and (max-width: 1440px) {
-  categories {
   }
 }
